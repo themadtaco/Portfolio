@@ -8,6 +8,11 @@ body{
     font-family: Arial, Helvetica, sans-serif;
 }
 
+section{
+    padding: 60px;
+}
+
+/* header start */
 header{
     padding: 20px 35px;
     display: flex;
@@ -51,4 +56,25 @@ header nav ul a{
 header nav ul li a:hover{
     background: #3F403F;
     border-radius: 15px;
+}
+/* header end */
+
+/* hero start */
+
+.hero {
+    background-image: url(../images/portfolio-1.jpeg);
+    background-size: cover;
+    background-position: 80%;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: left;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    width: 100vw;
+    height: 50vh;
+}
+
+.hero div{
+    color: #CED0CE;
+    font-size: 36px;
 }
