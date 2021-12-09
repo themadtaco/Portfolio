@@ -12,6 +12,11 @@ section{
     padding: 60px;
 }
 
+.section-header{
+    font-size: 40px;
+    margin: 15px 0;
+}
+
 /* header start */
 header{
     padding: 20px 35px;
@@ -20,6 +25,7 @@ header{
     justify-content: space-between;
     flex-wrap: wrap;
     top: 0;
+    width: 100vw;
 }
 
 header h1{
@@ -60,7 +66,6 @@ header nav ul li a:hover{
 /* header end */
 
 /* hero start */
-
 .hero {
     background-image: url(../images/portfolio-1.jpeg);
     background-size: cover;
@@ -77,4 +82,41 @@ header nav ul li a:hover{
 .hero div{
     color: #CED0CE;
     font-size: 36px;
+}
+/* hero end */
+
+/* About me start */
+.about-me{
+    background-color: #9FB8AD;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.about-me div{
+    padding: 20px;
+    width: 400px;
+}
+ .about-me p{
+     font-size: 20px;
+     padding: 40px;
+ }
+
+.about-me img{
+    max-width: 100%;
+}
+/* About me end */
+
+/* My work start */
+.my-work{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+/* My work end */
+
+/* Contact me start */
+.contact-me{
+    display: flex;
 }
