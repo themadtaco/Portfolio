@@ -15,6 +15,8 @@ section{
 .section-header{
     font-size: 40px;
     margin: 15px 0;
+    text-align: center;
+    margin: 0 auto 35px auto;
 }
 
 /* header start */
@@ -87,36 +89,109 @@ header nav ul li a:hover{
 
 /* About me start */
 .about-me{
-    background-color: #9FB8AD;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
+    background-color: #CED0CE;
 }
 
-.about-me div{
-    padding: 20px;
-    width: 400px;
-}
- .about-me p{
-     font-size: 20px;
-     padding: 40px;
- }
-
-.about-me img{
-    max-width: 100%;
-}
-/* About me end */
-
-/* My work start */
-.my-work{
+.about-me-con{
+    margin: 25px auto;
+    padding-bottom: 50px;
+    width: 80%;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
 }
+
+.my-content{
+    flex: 2 70%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.my-content h2{
+    flex: 1 10%;
+    font-size: 46px;
+}
+
+.my-image{
+    flex: 1 12%;
+    margin-right: 20px;
+}
+
+.my-image img{
+    max-width: 100%;
+}
+
+.my-words{
+    flex: 12;
+}
+
+.my-words p{
+    font-size: 18px;
+}
+/* 
+
+.about-me img{
+    max-height: 100%;
+    object-fit: cover;
+    vertical-align: bottom;
+} */
+/* About me end */
+
+/* My work start */
+.my-work{
+    background-color: #CED0CE;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100vw;
+    /* align-items: center;
+    justify-content: space-between; */
+}
+
+.my-work ul{
+    display: flex;
+    flex-wrap: flex;
+}
+
+.my-work li{
+    height: 40vh;
+    flex-grow: 1;
+    list-style: none;
+}
+
+.my-work ul img{
+    max-height: 100%;
+    min-width: 100%;
+    object-fit: cover;
+    vertical-align: bottom;
+}
+
+.my-work li:hover img{
+    opacity: 0.3;
+}
+
+
+
+/* .main-project{
+    flex-basis: max-content;
+} */
+
+/* .project-trio{
+    height: 40vh;
+    flex-grow: 1;
+}
+
+.project-trio img{
+    max-height: 100%;
+    min-width: 100%;
+    object-fit: cover;
+    vertical-align: bottom;
+} */
 /* My work end */
 
 /* Contact me start */
 .contact-me{
+    background-color: #CED0CE;
     display: flex;
 }
