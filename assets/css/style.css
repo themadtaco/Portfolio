@@ -196,6 +196,23 @@ header nav ul li a:hover{
 /* Contact me start */
 .contact-me{
     background-color: #475841;
-    display: flex;
     width: 100vw;
 }
+
+.contact-me h2{
+    color: #CED0CE;
+}
+
+.contact-info{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: center;
+}
+
+.contact-info a{
+    text-decoration: none;
+    color: #CED0CE;
+    font-size: 20px;
+}
+/* Contact me end */
