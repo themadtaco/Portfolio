@@ -35,7 +35,6 @@ header h1{
     margin: 0;
     font-size: 36px;
     color: #CED0CE;
-    border-radius: 15px;
 }
 
 header a{
@@ -216,3 +215,67 @@ header nav ul li a:hover{
     font-size: 20px;
 }
 /* Contact me end */
+
+/* Media queries start */
+@media screen and (max-width:980px) {
+    header{
+        padding-bottom: 0;
+        justify-content: center;
+        position: relative;
+    }
+
+    header h1{
+        width: 100%;
+        text-align: center;
+    }
+
+    header nav ul{
+        margin-top: 20px;
+        width: 100%;
+        text-align: center;
+    }
+
+    header nav ul li a{
+        font-size: 20px;
+    }
+
+    .my-work ul{
+        flex-direction: row;
+    }
+
+    .my-work li{
+        height: auto;
+        width: 100%;
+    }
+
+    .my-work img{
+        width: 100%;
+        max-height: 75vh;
+        min-width: 0;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .hero div{
+        font-size: 30px;
+    }
+
+    .contact-info a{
+        font-size: 17px;
+    }
+}
+
+@media screen and (max-width:575px) {
+    .section-header{
+        font-size: 35;
+    }
+
+    .contact-me h2{
+        font-size: 35px;
+    }
+
+    .my-words p{
+        font-size: 16px;
+    }
+}
+/* End media queries */
