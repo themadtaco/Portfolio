@@ -1,14 +1,14 @@
 # Portfolio
 
-##Purpose
+## Purpose
 A website created using HTML and CSS techniques that have been learned during our bootcamp.
 This website shows off my skills and completed work. It also contains placeholders for future work ideas.
 
-##Languages Used
-*HTML
-*CSS
+## Languages Used
+* HTML
+* CSS
 
-##Website Link
+## Website Link
 
-##Contribution
+## Contribution
 Made by Fabian Uribe
